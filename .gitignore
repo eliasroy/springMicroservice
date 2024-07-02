@@ -1,5 +1,5 @@
 
-.idea
+.idea*
 .idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 .idea/sonarlint/securityhotspotstore/index.pb
 .idea/sonarlint/securityhotspotstore/9/a/9a6596b5d71c19602b69f07cc32599fc0375198c
@@ -18,4 +18,5 @@
 .idea/compiler.xml
 *.pb
 *.xml
+*.pb
 *.pb
