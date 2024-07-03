@@ -1,0 +1,18 @@
+version: '3'
+services:
+  ### Mysql database for Orders
+  db-orders:
+    container_name: db-orders
+    image: mysql:8.0.33
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ms_orders
+      MYSQL_USER: uncledave
+      MYSQL_PASSWORD: Test123
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+
+
